@@ -1,2 +1,3 @@
 # JAVA_PLACE
-java place
+
+- hashcode() equals()
