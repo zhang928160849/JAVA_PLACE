@@ -6,4 +6,4 @@
   > src/main/java/com.your.package/applicationClass   src/test/java/com.your.package/testClass
 - in order to simulate the application shut down, use this @DirtiesContext(classMode = DirtiesContext.ClassMode.AFTER_EACH_TEST_METHOD) in class signature to kill spring context between each test methods
 - use @repository to mark a repository to use Spring JPA to manage data.
-- spring的原理 [](https://github.wdf.sap.corp/d022051/SpringTutorial/wiki/SpringContext)
+- spring的原理 [link](https://github.wdf.sap.corp/d022051/SpringTutorial/wiki/SpringContext)
