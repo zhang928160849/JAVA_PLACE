@@ -18,3 +18,4 @@ EnableAutoConfiguration annotation is used to enable spring boot automatic confi
 
 - @EnableJpaRepositories to include JPA repository that defined out of class path of @EnableAutoConfiguration
 - @EnableConfigurationProperties to import the POJO only annotated with @ConfigurationProperties
+- compare integer, you shouldn't use ==, but .equals
