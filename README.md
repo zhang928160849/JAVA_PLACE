@@ -15,3 +15,5 @@
 ComponentScan annotation is used to scan directories for configuraiton class. it is annotation is equivalent to Spring XML's element. it provides basePackageClasses or basePackages or its alias value which specify which packages to scan. If packages are not defined,then package of the configuration class anotated with ComponentScan will be condised ad default package to scan.
 @EnableAutoConfiguration
 EnableAutoConfiguration annotation is used to enable spring boot automatic configuration of application context. it will find the configured beans in the class path. All the jars or configuration classes added in class path will be included in application context.
+
+- @EnableJpaRepositories to include JPA repository that defined out of class path of @EnableAutoConfiguration
