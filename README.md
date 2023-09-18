@@ -7,3 +7,11 @@
 - in order to simulate the application shut down, use this @DirtiesContext(classMode = DirtiesContext.ClassMode.AFTER_EACH_TEST_METHOD) in class signature to kill spring context between each test methods
 - use @repository to mark a repository to use Spring JPA to manage data.
 - spring的原理 [link](https://github.wdf.sap.corp/d022051/SpringTutorial/wiki/SpringContext)
+- @SpringBootApplication annotation is combination of @SpringBootConfiguration annotation, @EnableAutoConfiguration annotation and @ComponentScan annotation.
+  
+> SpringBootConfiguration
+@SpringBootApplication annotation is an alternatevice to spring Configuration annotation. it is used to tell application that this class is Spring Boot Configuration.
+@ComponentScan
+ComponentScan annotation is used to scan directories for configuraiton class. it is annotation is equivalent to Spring XML's element. it provides basePackageClasses or basePackages or its alias value which specify which packages to scan. If packages are not defined,then package of the configuration class anotated with ComponentScan will be condised ad default package to scan.
+@EnableAutoConfiguration
+EnableAutoConfiguration annotation is used to enable spring boot automatic configuration of application context. it will find the configured beans in the class path. All the jars or configuration classes added in class path will be included in application context.
