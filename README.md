@@ -20,3 +20,4 @@ EnableAutoConfiguration annotation is used to enable spring boot automatic confi
 - @EnableConfigurationProperties to import the POJO only annotated with @ConfigurationProperties
 - compare integer, you shouldn't use ==, but .equals
 - DTO stand for Data Transfet Object, check [DTO](https://martinfowler.com/eaaCatalog/dataTransferObject.html)
+- use Lombok annotation to reduce boilerplate code 
