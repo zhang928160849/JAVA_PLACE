@@ -1,6 +1,6 @@
 # JAVA_PLACE
 
-- import & import static, can use import static to import static method withour reference to class
+- import & import static, can use import static to import static method without reference to class
 - use @RestController and @RequestMapping("/api/v1/books") to define a spring mvc controller, use @GetMapping to annotate the method to handle specific request
 - Test class annotated with @SpringBootTest should has the same package path with application class that annotated with @SpringBootApplication
   > src/main/java/com.your.package/applicationClass   src/test/java/com.your.package/testClass
@@ -20,4 +20,5 @@ EnableAutoConfiguration annotation is used to enable spring boot automatic confi
 - @EnableConfigurationProperties to import the POJO only annotated with @ConfigurationProperties
 - compare integer, you shouldn't use ==, but .equals
 - DTO stand for Data Transfet Object, check [DTO](https://martinfowler.com/eaaCatalog/dataTransferObject.html) , dto object need getter and setter
-- use Lombok annotation to reduce boilerplate code 
+- use Lombok annotation to reduce boilerplate code
+- use transient keyword to exclude an attribute during seralization
