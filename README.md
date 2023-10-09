@@ -22,3 +22,4 @@ EnableAutoConfiguration annotation is used to enable spring boot automatic confi
 - DTO stand for Data Transfet Object, check [DTO](https://martinfowler.com/eaaCatalog/dataTransferObject.html) , dto object need getter and setter
 - use Lombok annotation to reduce boilerplate code
 - use transient keyword to exclude an attribute during seralization
+- Runnable can be called via Thread interface, Callable can be called only via ExecutorService.
