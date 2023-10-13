@@ -23,3 +23,4 @@ EnableAutoConfiguration annotation is used to enable spring boot automatic confi
 - use Lombok annotation to reduce boilerplate code
 - use transient keyword to exclude an attribute during seralization
 - Runnable can be called via Thread interface, Callable can be called only via ExecutorService.
+- generic type on method   public <T> T somemethod(T t), when call it, don't need to specify the T explicility, just somemethod("XXX")
