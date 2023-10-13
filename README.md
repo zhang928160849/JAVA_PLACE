@@ -1,4 +1,4 @@
-# JAVA_PLACE
+g# JAVA_PLACE
 
 - import & import static, can use import static to import static method without reference to class
 - use @RestController and @RequestMapping("/api/v1/books") to define a spring mvc controller, use @GetMapping to annotate the method to handle specific request
@@ -24,3 +24,4 @@ EnableAutoConfiguration annotation is used to enable spring boot automatic confi
 - use transient keyword to exclude an attribute during seralization
 - Runnable can be called via Thread interface, Callable can be called only via ExecutorService.
 - generic type on method   public <T> T somemethod(T t), when call it, don't need to specify the T explicility, just somemethod("XXX")
+- .equal won't trigger type conversion Long C = 3L, 3L.equal(1+2) false
