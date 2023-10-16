@@ -25,3 +25,4 @@ EnableAutoConfiguration annotation is used to enable spring boot automatic confi
 - Runnable can be called via Thread interface, Callable can be called only via ExecutorService.
 - generic type on method   public <T> T somemethod(T t), when call it, don't need to specify the T explicility, just somemethod("XXX")
 - .equal won't trigger type conversion Long C = 3L, 3L.equal(1+2) false
+- Autoboxing and unBoxing in JAVA
