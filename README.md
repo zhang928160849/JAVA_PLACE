@@ -27,3 +27,4 @@ EnableAutoConfiguration annotation is used to enable spring boot automatic confi
 - .equal won't trigger type conversion Long C = 3L, 3L.equal(1+2) false
 - Autoboxing and unBoxing in JAVA
 - _Character_ object contains helper method to assert the type of character
+- when no constructor explicitly declared, there will be default constructor, when a contructor with parameter is defined, the dafult is surpressed.
