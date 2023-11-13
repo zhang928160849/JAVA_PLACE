@@ -20,7 +20,7 @@ EnableAutoConfiguration annotation is used to enable spring boot automatic confi
 - @EnableConfigurationProperties to import the POJO only annotated with @ConfigurationProperties
 - compare integer, you shouldn't use ==, but .equals
 - DTO stand for Data Transfet Object, check [DTO](https://martinfowler.com/eaaCatalog/dataTransferObject.html) , dto object need getter and setter
-- use Lombok annotation to reduce boilerplate code
+- use Lombok annotation to reduce boilerplate code [offical document](https://projectlombok.org/features/)
 - use transient keyword to exclude an attribute during seralization
 - Runnable can be called via Thread interface, Callable can be called only via ExecutorService.
 - generic type on method   public <T> T somemethod(T t), when call it, don't need to specify the T explicility, just somemethod("XXX")
@@ -28,3 +28,4 @@ EnableAutoConfiguration annotation is used to enable spring boot automatic confi
 - Autoboxing and unBoxing in JAVA
 - _Character_ object contains helper method to assert the type of character
 - when no constructor explicitly declared, there will be default constructor, when a contructor with parameter is defined, the dafult is surpressed.
+- 
