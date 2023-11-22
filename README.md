@@ -1,4 +1,4 @@
-g# JAVA_PLACE
+# JAVA_PLACE
 
 - import & import static, can use import static to import static method without reference to class
 - use @RestController and @RequestMapping("/api/v1/books") to define a spring mvc controller, use @GetMapping to annotate the method to handle specific request
@@ -28,4 +28,4 @@ EnableAutoConfiguration annotation is used to enable spring boot automatic confi
 - Autoboxing and unBoxing in JAVA
 - _Character_ object contains helper method to assert the type of character
 - when no constructor explicitly declared, there will be default constructor, when a contructor with parameter is defined, the dafult is surpressed.
-- 
+- you find jar is not executable after mvn packaging, you may check this [Spring Boot Maven Plugin](https://www.baeldung.com/spring-boot-fix-the-no-main-manifest-attribute)
