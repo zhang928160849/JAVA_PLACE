@@ -1,0 +1,1 @@
+- 具有相似代码的代码一个叫做  MassClosingRequestService 一个叫 MassClosingRequestProcessor 分别是给controller和task/kafka用的
