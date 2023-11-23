@@ -1,0 +1,1 @@
+- boolean in entity defintion the default value in null, not false
