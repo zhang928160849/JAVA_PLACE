@@ -29,3 +29,4 @@ EnableAutoConfiguration annotation is used to enable spring boot automatic confi
 - _Character_ object contains helper method to assert the type of character
 - when no constructor explicitly declared, there will be default constructor, when a contructor with parameter is defined, the dafult is surpressed.
 - you find jar is not executable after mvn packaging, you may check this [Spring Boot Maven Plugin](https://www.baeldung.com/spring-boot-fix-the-no-main-manifest-attribute)
+set is not ordered measn the order of element in set doesn't follow the order elements added, but set would sort elemenet with it's own sort algorithm.
