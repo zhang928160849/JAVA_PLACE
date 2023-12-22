@@ -54,3 +54,21 @@ public class Child {
     //Other fields, getters and setters
 }
   ```
+
+
+- there are both ways to send http request
+
+WebClient:
+
+WebClient is a non-blocking, reactive web client introduced in Spring 5.
+It's part of Spring WebFlux module and is suitable for event-loop style processing that can scale with a small number of threads.
+WebClient can work efficiently in high load scenarios and can handle streaming scenarios better due to its non-blocking nature.
+It also supports Server-Sent Events (SSE) and WebSockets.
+WebClient is recommended for new Spring projects.
+
+RestTemplate:
+
+RestTemplate is a blocking, non-reactive client which was the main way to do HTTP client-side operations in Spring 3.x and 4.x versions.
+It's part of Spring Web MVC module and is not suitable for handling many concurrent connections because one thread is used for one request/response.
+RestTemplate does not support SSE and WebSockets.
+As of Spring 5, RestTemplate is in maintenance mode and the Spring team suggests WebClient as its replacement.
