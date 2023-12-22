@@ -32,31 +32,30 @@ EnableAutoConfiguration annotation is used to enable spring boot automatic confi
 set is not ordered measn the order of element in set doesn't follow the order elements added, but set would sort elemenet with it's own sort algorithm.
 - a way to build relation between parent table and child table is create a foreign key in child table that point to the primary key of parent table, code below
   ```java
-public class Parent {
-    @Id
-    private Long id;
-
-    @OneToMany(mappedBy = "parent", cascade = CascadeType.ALL)
-    private List<Child> children = new ArrayList<>();
-
-    //Other fields, getters and setters
-}
-
-@Entity
-public class Child {
-    @Id
-    private Long id;
-
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "parent_id")
-    private Parent parent;
-
-    //Other fields, getters and setters
-}
+  public class Parent {
+      @Id
+      private Long id;
+  
+      @OneToMany(mappedBy = "parent", cascade = CascadeType.ALL)
+      private List<Child> children = new ArrayList<>();
+  
+      //Other fields, getters and setters
+  }
+  
+  @Entity
+  public class Child {
+      @Id
+      private Long id;
+  
+      @ManyToOne(fetch = FetchType.LAZY)
+      @JoinColumn(name = "parent_id")
+      private Parent parent;
+  
+      //Other fields, getters and setters
+  }
   ```
 
-
-- there are both ways to send http request
+- there are two ways to send http request
 
 WebClient:
 
