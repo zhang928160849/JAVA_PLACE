@@ -72,3 +72,5 @@ It's part of Spring Web MVC module and is not suitable for handling many concurr
 RestTemplate does not support SSE and WebSockets.
 As of Spring 5, RestTemplate is in maintenance mode and the Spring team suggests WebClient as its replacement.
 high precision should use BigDecimal class, instead of float or double, Big decimal would take more memory and slower.
+
+- start from spring boot3: httptract endpoint in actuator is replaced by httpexchanges
