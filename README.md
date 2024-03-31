@@ -74,3 +74,4 @@ As of Spring 5, RestTemplate is in maintenance mode and the Spring team suggests
 high precision should use BigDecimal class, instead of float or double, Big decimal would take more memory and slower.
 
 - start from spring boot3: httptrace endpoint in actuator is replaced by httpexchanges
+- @ParameterizedTest to used to singal that the annotated method is a parameterizedTest method
