@@ -4,6 +4,18 @@
   brief: spring.factories under META-INF [link](https://docs.spring.io/spring-boot/docs/2.0.0.M4/reference/html/boot-features-developing-auto-configuration.html)
   *tips:* the target bean better be a class @Configuration and @ComponentScan to get all beans
 
+- IoC and ApplicationContext,
+   @Component is generic stereotype
+   @Service
+   @Repository
+   @Controller
+   @Bean
+   @Configuration
+
+With @Configuration + @Bean we could produced the bean, !
+
+
+
 - spring-boot-devtools automatic restart whenever changes are made
 - Secutity Context store the authentication object and authority
 
