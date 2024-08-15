@@ -75,3 +75,5 @@ high precision should use BigDecimal class, instead of float or double, Big deci
 
 - start from spring boot3: httptrace endpoint in actuator is replaced by httpexchanges
 - @ParameterizedTest to used to singal that the annotated method is a parameterizedTest method
+-  Heap Memory: Shared among threads, synchronized access must be managed.
+   Stack Memory: Isolated per thread, inherently thread-safe.
