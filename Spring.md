@@ -5,4 +5,5 @@
   *tips:* the target bean better be a class @Configuration and @ComponentScan to get all beans
 
 - spring-boot-devtools automatic restart whenever changes are made
+- Secutity Context store the authentication object and authority
 
