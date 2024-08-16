@@ -77,3 +77,11 @@ high precision should use BigDecimal class, instead of float or double, Big deci
 - @ParameterizedTest to used to singal that the annotated method is a parameterizedTest method
 -  Heap Memory: Shared among threads, synchronized access must be managed.
    Stack Memory: Isolated per thread, inherently thread-safe.
+
+- JDK dynamic proxy and CGLIB proxy   
+- java.lang.Object
+  └── java.lang.Throwable
+        ├── java.lang.Error (Unchecked)
+        └── java.lang.Exception
+              ├── java.lang.RuntimeException (Unchecked)
+              └── other checked exceptions...
